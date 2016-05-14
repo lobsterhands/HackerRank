@@ -8,7 +8,6 @@ int main() {
     double d = 4.0;
     char s[] = "HackerRank ";
 
-
     // Declare second integer, double, and String variables.
     int userI;
     double userD;
@@ -28,7 +27,6 @@ int main() {
     // Concatenate and print the String variables on a new line
     // The 's' variable above should be printed first.
     printf("%s%s\n", s, userS);
-
 
     return 0;
 }
