@@ -1,0 +1,3 @@
+#HackerRank
+
+Practicing with C
