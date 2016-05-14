@@ -20,12 +20,14 @@ int main() {
     scanf("%[^\n]", userS);
 
     // Print the sum of both integer variables on a new line.
+    printf("%d\n", i + userI);
 
     // Print the sum of the double variables on a new line.
+    printf("%.1f\n", d + userD); // "%f" vs "%.1f": explicit decimal nums
 
     // Concatenate and print the String variables on a new line
     // The 's' variable above should be printed first.
-
+    printf("%s%s\n", s, userS);
 
 
     return 0;
